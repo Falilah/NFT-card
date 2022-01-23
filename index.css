@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #06031f;
+  color: #fff;
+  font-family: sans-serif;
+}
+.contained {
+  margin: 0 auto;
+  padding-left: 4rem;
+}
+.equilibrum {
+  margin-right: 5rem;
+  line-height: 1.7;
+}
+.collection {
+  opacity: 0.5;
+}
+.contain {
+  display: flex;
+  justify-content: center;
+  background-color: #060316d0;
+  width: 35%;
+  margin: 0 auto;
+  padding-top: 2rem;
+  margin-top: 5%;
+  border-radius: 10px;
+  opacity: 0.5;
+  object-fit: contain;
+  box-shadow: 5px 5px 6px #06031f outset;
+}
+.logo {
+  width: 300px;
+  border-radius: 10px;
+}
+
+.icons,
+.avartar {
+  display: flex;
+  margin: 5% 0;
+}
+.avartar {
+  border-top: solid 0.1rem #333;
+  margin-right: 5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.creation {
+  margin-left: 2rem;
+  padding-top: 1rem;
+}
+.avat {
+  width: 50px;
+}
+.space1 {
+  margin-right: 5rem;
+  color: aqua;
+}
+.create {
+  opacity: 0.5;
+}
+.icons img {
+  margin-bottom: -0.2rem;
+}
+
+@media screen and (max-width: 1000px) {
+  body {
+    font-size: 10px;
+  }
+  .logo {
+    width: 200px;
+  }
+
+  .space1 {
+    margin-right: 2rem;
+  }
+  .contain {
+    display: flex;
+    place-content: center;
+    width: 70%;
+  }
+  .contained {
+    margin-right: 3rem;
+  }
+}
